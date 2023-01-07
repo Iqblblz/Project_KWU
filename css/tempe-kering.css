@@ -1,0 +1,20 @@
+.overlay-jumbotron {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.overlay-jumbotron::after {
+	content: '';
+	top: 0;
+	left: 0;
+	position: absolute;
+	background-color: rgba(0, 0, 0, .6);
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.overlay-jumbotron .text-center {
+	z-index: 5;
+}
